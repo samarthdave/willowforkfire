@@ -24,7 +24,7 @@
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
   color: #fff;
-  background: #081461;
+  background: #1b074a;
 }
 
 
@@ -55,12 +55,32 @@
 }
 .navbar.navbar-default .nav >li >a {
   padding-top: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }
 .navbar.navbar-default .navbar-toggle {
   padding: 10px;
   margin: 25px 15px 25px 0;
 }
+
+/*carousel*/
+#carousel1 {
+  width: 100%;
+  max-width: 400px;
+}
+.carousel .item {
+  height: 300px;
+}
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+
+
+
+
 
 
 
