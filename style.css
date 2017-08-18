@@ -1,4 +1,82 @@
 .navbar-default {
-  background-color: #081461;
+  background: #081461;
   border-radius: 0;
 }
+
+/*center align*/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*links in navbar and hover*/
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  color: #fff;
+  background: #081461;
+}
+
+
+/*dropdown menu*/
+.dropdown-menu {
+  background: #081461;
+}
+.dropdown-menu li a {
+  color: #fff;
+}
+
+/*hover over li*/
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  color: #fff;
+  background: #f53a3a;
+}
+
+/*control the brand image*/
+.navbar-brand {
+  padding: 0px;
+  height: 110px;
+}
+.navbar-brand > img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.navbar.navbar-default .nav >li >a {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.navbar.navbar-default .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
