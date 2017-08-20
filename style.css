@@ -1,6 +1,12 @@
 .navbar-default {
   background: #081461;
   border-radius: 0;
+  border: 0;
+}
+
+/*navbar fonts*/
+.navbar a {
+  font-size: 1.2em;
 }
 
 /*center align*/
@@ -24,7 +30,7 @@
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
   color: #fff;
-  background: #1b074a;
+  background: #e02d3e;
 }
 
 
@@ -40,7 +46,7 @@
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
   color: #fff;
-  background: #f53a3a;
+  background: #e02d3e;
 }
 
 /*control the brand image*/
@@ -65,10 +71,10 @@
 /*carousel*/
 #carousel1 {
   width: 100%;
-  max-width: 400px;
+  /*max-width: 400px;*/
 }
 .carousel .item {
-  height: 300px;
+  height: 350px;
 }
 .item img {
   position: absolute;
@@ -77,7 +83,26 @@
   min-height: 300px;
 }
 
+/*custom well*/
+.blue.well {
+  background-color: #081461;
+}
 
+.blue.well h2 {
+  margin: 0 0 10px 0;
+  color: #fff;
+}
+
+
+/*patch thumbnail*/
+.patch.thumbnail {
+  background-color: transparent;
+  padding: 10px;
+  border: 0;
+}
+.patch.thumbnail > img {
+  max-width: 200px;
+}
 
 
 
