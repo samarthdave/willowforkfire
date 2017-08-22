@@ -181,17 +181,20 @@ hr.people {
 	width: 100%;
 }
 
+/*moving navbar over the image for desktop only*/
+@media (min-width: 760px) {
+  .nav.navbar-nav {
+    margin-right: 50px;
+  }
+}
 
-/*customizing blue box on home page*/
-/*#important-links {*/
-/*  max-height: 403px;*/
-/*  height: 370px;*/
-/*}*/
-/*@media (min-width: 760px) {*/
-/*  #important-links {*/
-/*    height: 403px;*/
-/*  }*/
-/*}*/
+
+
+
+
+
+
+
 
 
 
