@@ -116,7 +116,7 @@ a:hover {
   padding: 0;
   border: 0;
 }
-.thumbnail > img {
+.patch.thumbnail > img {
   max-width: 150px;
 }
 
@@ -190,6 +190,35 @@ hr.people {
 
 
 
+/**/
+/*locations*/
+/**/
+
+.station p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/**/
+/*service area*/
+/**/
+
+.service-area h1 {
+  color: #fff;
+}
+
+.service-area p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+
+.service-area ul {
+  list-style: none;
+}
+.service-area li {
+  color: #fff;
+}
 
 
 
