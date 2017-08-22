@@ -157,10 +157,41 @@ a:hover {
   color: #fff;
 }
 
+/*make listings square*/
+.listings .col-md-3 {
+  height: 280px;
+}
+
+/*make images larger in thumbnails*/
+.listings .col-md-3 .thumbnail {
+  height: calc(100% - 100px);
+}
+.listings .thumbnail img {
+  /*height: 100%;*/
+}
+
+
+/*make headers larger*/
+.listings h4 {
+  font-size: 1.6em;
+}
+
 hr.people {
 	border-top: 2px solid #fff;
 	width: 100%;
 }
+
+
+/*customizing blue box on home page*/
+/*#important-links {*/
+/*  max-height: 403px;*/
+/*  height: 370px;*/
+/*}*/
+/*@media (min-width: 760px) {*/
+/*  #important-links {*/
+/*    height: 403px;*/
+/*  }*/
+/*}*/
 
 
 
@@ -213,6 +244,13 @@ hr.people {
   border: 0;
   font-size: 1.2em;
   font-weight: bold;
+}
+
+table {
+  table-layout: fixed;
+}
+td {
+  width: 33%;
 }
 
 
