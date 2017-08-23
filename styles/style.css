@@ -106,9 +106,9 @@ a:hover {
 /**/
 /*zoom body out to fit index page*/
 /**/
-@media (min-width: 760px) {
-  #homePage {
-    margin-right: 50px;
+@media (min-width: 700px) {
+  #homepage {
+    zoom: 85%;
   }
 }
 
