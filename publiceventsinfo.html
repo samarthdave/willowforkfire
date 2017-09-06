@@ -31,11 +31,12 @@
 
       <div class="collapse navbar-collapse" id="navbar-1">
         <ul class="nav navbar-nav">
+          <li><a href="./index.html">Home</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="./history.html">History of Department</a></li>
-              <li><a href="./directors.html">Board of Directors</a></li>
+              <li><a href="./commissioners.html">Board of Commissioners</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -66,142 +67,143 @@
 
   <div class="container public-events text-center">
     <h1>Event Request</h1>
-    
+
     <form class="form-horizontal">
-      
+
       <div class="form-well well col-md-12">
         <h3>Contact Information</h3>
+        <p>* is required</p>
         <div class="form-group">
-          <label class="control-label col-sm-2" for="email">Name:</label>
+          <label class="control-label col-sm-2" for="email">Name: *</label>
           <div class="col-sm-10">
             <input type="text" class="form-control" id="email">
           </div>
         </div>
         <div class="form-group">
-          <label class="control-label col-sm-2" for="email">Email:</label>
-          <div class="col-sm-10"> 
+          <label class="control-label col-sm-2" for="email">Email: *</label>
+          <div class="col-sm-10">
             <input type="email" class="form-control" id="email">
           </div>
         </div>
-        <div class="form-group"> 
-          <label class="control-label col-sm-2" for="phone">Phone:</label>
-          <div class="col-sm-10"> 
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="phone">Phone: *</label>
+          <div class="col-sm-10">
             <input type="text" class="form-control" id="phone">
           </div>
         </div>
       </div>
-      
+
       <div class="form-well well col-md-12">
-        
-        
+
+
         <div class="form-group col-md-6">
           <h3>Public Appearances</h3>
-          <p>*(No Private Events)</p>
+          <p>(No Private Events)</p>
           <label class="control-label" for="group">Group/Affiliation:</label>
           <div>
             <input type="text" class="form-control" id="group">
           </div>
-          
+
           <label class="control-label" for="event-name">Event Name:</label>
           <div>
             <input type="text" class="form-control" id="event-name">
           </div>
-          
+
           <label class="control-label" for="start-time">Start Time (earliest is 10:30AM):</label>
           <div>
             <input type="text" class="form-control" id="start-time">
           </div>
-          
+
           <label class="control-label" for="end-time">End Time:</label>
           <div>
             <input type="text" class="form-control" id="end-time">
           </div>
-          
+
           <label class="control-label" for="date">Date:</label>
           <div>
             <input type="text" class="form-control" id="date" placeholder="MM/DD/YYYY">
           </div>
-          
+
           <label class="control-label" for="age-group">Age Group:</label>
           <div>
             <input type="text" class="form-control" id="age-group">
           </div>
-          
+
           <label class="control-label" for="group-size">Group Size:</label>
           <div>
             <input type="text" class="form-control" id="group-size">
           </div>
         </div>
-        
+
         <div class="form-group col-md-6">
           <h3>Address</h3>
           <label class="control-label" for="street">Street:</label>
           <div>
             <input type="text" class="form-control" id="street">
           </div>
-          
+
           <label class="control-label" for="city">City:</label>
           <div>
             <input type="text" class="form-control" id="city">
           </div>
-          
+
           <label class="control-label" for="state">State:</label>
           <div>
             <input type="text" class="form-control" id="state">
           </div>
-          
-          
+
+
           <label for="comments" class="control-label">Comments:</label>
           <div>
             <textarea class="form-control" rows="5" id="comments"></textarea>
           </div>
         </div>
-        
+
       </div>
-      
+
       <div class="form-well well col-md-12">
-        
+
         <div class="form-group col-md-6">
           <h3>Station Tour</h3>
           <label class="control-label" for="group">Group/Affiliation:</label>
           <div>
             <input type="text" class="form-control" id="group">
           </div>
-          
+
           <label class="control-label" for="purpose">Purpose:</label>
           <div>
             <input type="text" class="form-control" id="purpose">
           </div>
-          
+
           <label class="control-label" for="age-group">Age Group:</label>
           <div>
             <input type="text" class="form-control" id="age-group">
           </div>
-          
-          
+
+
           <label class="control-label" for="group-size">Group Size:</label>
           <div>
             <input type="text" class="form-control" id="group-size">
           </div>
         </div>
-        
+
         <div class="form-group col-md-6">
           <label class="control-label" for="date">Date:</label>
           <div>
             <input type="text" class="form-control" id="date" placeholder="MM/DD/YYYY">
           </div>
-          
+
           <label class="control-label" for="start-time">Start Time (earliest is 10:30):</label>
           <div>
             <input type="text" class="form-control" id="start-time">
           </div>
-          
+
           <label class="control-label" for="end-time">End Time:</label>
           <div>
             <input type="text" class="form-control" id="end-time">
           </div>
-          
-          
+
+
           <label class="control-label" for="location">Location:</label>
           <div>
             <select class="form-control" id="location">
@@ -210,35 +212,35 @@
               <option value="station-3">Station 3, To be completed soon</option>
             </select>
           </div>
-          
+
           <label class="control-label" for="comments-3">Comments:</label>
           <div>
             <textarea class="form-control" rows="5" id="comments-3"></textarea>
           </div>
         </div>
-        
+
       </div>
-      
+
       <div class="form-well well col-md-12">
-        
+
         <div class="col-md-6 col-md-offset-3">
           <h3>Conference Room Reservation</h3>
-          
+
           <label class="control-label" for="date-4">Date:</label>
           <div>
             <input type="text" class="form-control" id="date-4" placeholder="MM/DD/YYYY">
           </div>
-          
+
           <label class="control-label" for="start-time">Start Time (earliest is 10:30):</label>
           <div>
             <input type="text" class="form-control" id="start-time">
           </div>
-          
+
           <label class="control-label" for="end-time">End Time:</label>
           <div>
             <input type="text" class="form-control" id="end-time">
           </div>
-          
+
           <label class="control-label" for="location-4">Location:</label>
           <div>
             <select class="form-control" id="location-4">
@@ -247,22 +249,22 @@
               <option value="station-3">Station 3, To be completed soon</option>
             </select>
           </div>
-          
+
           <label class="control-label" for="comments-4">Comments:</label>
           <div>
             <textarea class="form-control" rows="5" id="comments-4"></textarea>
           </div>
         </div>
-        
+
       </div>
-      
+
       <button type="submit" class="btn btn-success btn-lg">Submit</button>
-      
-      
+
+
     </form>
-    
+
   </div>
-  
+
   <div class="footer"></div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
