@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Locations - Willowfork Fire-Rescue</title>
+  <title>Public Appearances - Willowfork Fire-Rescue</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/style.css">
@@ -65,85 +65,75 @@
 
   <!-- begin body -->
 
-  <div class="container locations text-center">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="well blue station">
-          <a name="station1"></a>
-          <h2>Station 1</h2>
-          <p>
-            24655 Westheimer Parkway Katy, TX 77494
-          </p>
-          <p>
-            <strong>Contact</strong>
-            <br>
-            Office: <a href="tel:+12813950011">(281) 395-0011</a>
-            <br>
-            Fax: <a href="tel:+12813950025">(281) 395-0025</a>
-          </p>
-          <p>
-            <strong>Email</strong>
-            <br>
-            <a href="mailto:wfdinfo@willowforkfire.com" target="_top">wfdinfo@willowforkfire.com</a>
-          </p>
-          <div class="thumbnail">
-            <img src="./img/station1.jpg">
+  <div class="container text-center">
+    <form class="public-events form-horizontal">
+      <div class="form-well well col-md-12">
+        <h3>Contact Information</h3>
+        <p>* is required</p>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Name: *</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email: *</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="phone">Phone: *</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="phone">
           </div>
         </div>
       </div>
 
 
-      <div class="col-md-12">
-        <div class="well blue station">
-          <a name="station2"></a>
-          <h2>Station 2</h2>
-          <p>
-            26950 Cinco Ranch Boulevard Katy, TX 77494
-          </p>
-          <p>
-            <strong>Contact</strong>
-            <br>
-            Office: <a href="tel:+12813950011">(281) 395-0011</a>
-            <br>
-            Fax: <a href="tel:+12813950025">(281) 395-0025</a>
-          </p>
-          <p>
-            <strong>Email</strong>
-            <br>
-            <a href="mailto:wfdinfo@willowforkfire.com" target="_top">wfdinfo@willowforkfire.com</a>
-          </p>
-          <div class="thumbnail">
-            <img src="./img/station2.jpg">
-          </div>
+      <div class="form-well well col-md-12">
+        <img class="img-responsive img-sm" src="./img/public_event.jpg">
+        <br>
+        <h3>Public Appearances</h3>
+        <p>* is required</p>
+        <p style="color: #fff">(No Private Events)</p>
+        <label class="control-label" for="group">Group/Affiliation: *</label>
+        <div>
+          <input type="text" class="form-control" id="group">
+        </div>
+
+        <label class="control-label" for="event-name">Event Name: *</label>
+        <div>
+          <input type="text" class="form-control" id="event-name">
+        </div>
+
+        <label class="control-label" for="start-time">Start Time (earliest is 10:30AM): *</label>
+        <div>
+          <input type="text" class="form-control" id="start-time">
+        </div>
+
+        <label class="control-label" for="end-time">End Time: *</label>
+        <div>
+          <input type="text" class="form-control" id="end-time">
+        </div>
+
+        <label class="control-label" for="date">Date: *</label>
+        <div>
+          <input type="text" class="form-control" id="date" placeholder="MM/DD/YYYY">
+        </div>
+
+        <label class="control-label" for="age-group">Age Group: *</label>
+        <div>
+          <input type="text" class="form-control" id="age-group">
+        </div>
+
+        <label class="control-label" for="group-size">Group Size: *</label>
+        <div>
+          <input type="text" class="form-control" id="group-size">
         </div>
       </div>
-
-      <div class="col-md-12">
-        <div class="well blue station">
-          <a name="station3"></a>
-          <h2>Station 3</h2>
-          <p>
-            2700 Spring Green Blvd.
-          </p>
-          <p>
-            <strong>Contact</strong>
-            <br>
-            Office: <a href="tel:+12813950011">(281) 395-0011</a>
-            <br>
-            Fax: <a href="tel:+12813950025">(281) 395-0025</a>
-          </p>
-          <p>
-            <strong>Email</strong>
-            <br>
-            <a href="mailto:wfdinfo@willowforkfire.com" target="_top">wfdinfo@willowforkfire.com</a>
-          </p>
-          <div class="thumbnail">
-            <img src="./img/station3.jpg">
-          </div>
-        </div>
-      </div>
-
-    </div>
+      <button class="btn btn-success btn-lg" type="submit">Submit</button>
+    </form>
   </div>
 
   <div class="footer"></div>
@@ -152,5 +142,4 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script type="text/javascript" src="./scripts/script.js"></script>
 </body>
-
 </html>

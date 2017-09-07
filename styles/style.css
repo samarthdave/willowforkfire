@@ -307,9 +307,13 @@ td {
 .form-well {
   color: #fff;
 }
-.public-events h1, .public-events h3 {
+.public-events h1,
+.public-events h3 {
   color: #fff;
   margin: 0 0 15px 0;
+}
+.public-events label {
+  color: #fff
 }
 
 @media (min-width: 992px) {
@@ -334,6 +338,17 @@ td {
 .person li {
   font-size: 1.2em;
 }
+
+/*small images on 4 images*/
+.img-sm {
+  margin: 0 auto;
+  width: 50%;
+}
+
+
+
+
+
 
 
 
