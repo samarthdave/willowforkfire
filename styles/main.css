@@ -202,6 +202,9 @@ hr.people {
 /**/
 /*locations*/
 /**/
+.locations a {
+  color: #fff
+}
 
 .station p {
   color: #fff;
@@ -308,7 +311,8 @@ td {
   color: #fff;
 }
 .public-events h1,
-.public-events h3 {
+.public-events h3,
+.public-events h5 {
   color: #fff;
   margin: 0 0 15px 0;
 }
@@ -345,15 +349,23 @@ td {
   width: 50%;
 }
 
+/*add white color to anchors on contacts page*/
 
+.contacts a,
+.service-area a {
+  color: #fff;
+  text-decoration: underline;
+}
 
+li a,
+li a:hover {
+  text-decoration: none;
+}
 
-
-
-
-
-
-
+/*anchors for modals hover*/
+.text-hover-anchor:hover {
+  cursor: pointer;
+}
 
 
 /**/
