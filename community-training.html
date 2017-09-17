@@ -62,25 +62,24 @@
 
 
 <div class="container text-center">
-  <form class="public-events form-horizontal">
+  <form class="public-events form-horizontal" id="community-training-form">
     <div class="form-well well col-md-12">
   <h3>Contact Information</h3>
   <p>* required</p>
 
-  <label class="control-label" for="name">Name: *</label>
+  <label class="control-label" for="contact-name">Name: *</label>
   <div>
-    <input type="text" class="form-control" id="name">
+    <input type="text" class="form-control" name="contact-name" required>
   </div>
 
-
-  <label class="control-label" for="email">Email: *</label>
+  <label class="control-label" for="contact-email">Email: *</label>
   <div>
-    <input type="text" class="form-control" id="email" placeholder="abcd@example.com">
+    <input type="text" class="form-control" name="contact-email" placeholder="abcd@example.com" required>
   </div>
 
-  <label class="control-label" for="phone">Phone: *</label>
+  <label class="control-label" for="contact-phone">Phone: *</label>
   <div>
-    <input type="text" class="form-control" id="phone" placeholder="000-000-0000">
+    <input type="text" class="form-control" name="contact-phone" placeholder="000-000-0000" required>
   </div>
 </div>
 
@@ -88,20 +87,23 @@
     <div class="form-well well col-md-12">
       <img class="img-responsive img-sm" src="./img/community_training.jpg">
       <br>
-      <label class="control-label" for="class">Class Name: *</label>
+      <h3>Conference Room Reservation</h3>
+      <p>* required</p>
+      
+      <label class="control-label" for="community-training-classname">Class Name: *</label>
       <div>
-        <input type="text" name="class" class="form-control" placeholder="Classroom">
+        <input type="text" name="community-training-classname" class="form-control">
       </div>
 
       <label class="control-label" for="Comments">Comments: *</label>
       <div>
-        <textarea class="form-control" id="comments"></textarea>
+        <textarea name="community-training-comments" class="form-control"></textarea>
       </div>
 
       <br>
       <p>Contact <a href="mailto:wfdinfo@willowforkfire.com" target="_top">wfdinfo@willowforkfire.com</a> for more information.</p>
     </div>
-    <button class="btn btn-success btn-lg" type="submit">Submit</button>
+    <input type="submit" value="Submit" class="btn btn-success btn-lg">
   </form>
 </div>
 

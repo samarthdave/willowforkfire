@@ -75,6 +75,8 @@ body {
 /*carousel*/
 #carousel1 {
   width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
   /*max-width: 400px;*/
 }
 .carousel .item {
@@ -91,11 +93,14 @@ body {
 .blue.well {
   background-color: #081461;
   border: 0;
+  border-radius: 12px;
 }
 
+/*blue well font size*/
 .blue.well h2 {
   margin: 0 0 10px 0;
   color: #fff;
+  font-size: 20px;
 }
 
 /*editing all anchors*/
@@ -161,29 +166,23 @@ a:hover {
   border-width: 5px;
   border-color: #888;
   border-style: solid;
+  border-radius: 20px;
 }
 .listings h4 {
   color: #fff;
+  font-size: 1.3em;
 }
 
 /*make listings square*/
 .listings .col-md-3 {
-  height: 280px;
+  height: 220px;
 }
 
 /*make images larger in thumbnails*/
 .listings .col-md-3 .thumbnail {
   height: calc(100% - 100px);
 }
-.listings .thumbnail img {
-  /*height: 100%;*/
-}
 
-
-/*make headers larger*/
-.listings h4 {
-  font-size: 1.6em;
-}
 
 hr.people {
 	border-top: 2px solid #fff;
@@ -243,20 +242,18 @@ hr.people {
 
 
 
-
 /**/
 /*History Page*/
 /**/
 
 
-.history h1 {
+.history h2 {
   color: #fff;
-  font-size: 3em;
 }
 
 .history p {
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .paragraphImage {
@@ -316,9 +313,17 @@ td {
   color: #fff;
   margin: 0 0 15px 0;
 }
+.public-events h1 {
+  font-size: 20px;
+}
 .public-events label {
   color: #fff
 }
+.public-events a {
+  color: #fff;
+  text-decoration: underline;
+}
+
 
 @media (min-width: 992px) {
   .col-md-6 {
@@ -332,7 +337,7 @@ td {
 /**/
 
 .command h1,
-.command h2,
+.command h3,
 .command p,
 .command li {
   color: #fff;
@@ -366,6 +371,20 @@ li a:hover {
 .text-hover-anchor:hover {
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**/

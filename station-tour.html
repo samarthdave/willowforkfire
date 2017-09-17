@@ -58,29 +58,28 @@
   </div>
 </nav>
 
-
+  
 
 
   <div class="container text-center">
-    <form class="public-events form-horizontal">
+    <form class="public-events form-horizontal" action="">
       <div class="form-well well col-md-12">
   <h3>Contact Information</h3>
   <p>* required</p>
 
-  <label class="control-label" for="name">Name: *</label>
+  <label class="control-label" for="contact-name">Name: *</label>
   <div>
-    <input type="text" class="form-control" id="name">
+    <input type="text" class="form-control" name="contact-name" required>
   </div>
 
-
-  <label class="control-label" for="email">Email: *</label>
+  <label class="control-label" for="contact-email">Email: *</label>
   <div>
-    <input type="text" class="form-control" id="email" placeholder="abcd@example.com">
+    <input type="text" class="form-control" name="contact-email" placeholder="abcd@example.com" required>
   </div>
 
-  <label class="control-label" for="phone">Phone: *</label>
+  <label class="control-label" for="contact-phone">Phone: *</label>
   <div>
-    <input type="text" class="form-control" id="phone" placeholder="000-000-0000">
+    <input type="text" class="form-control" name="contact-phone" placeholder="000-000-0000" required>
   </div>
 </div>
 
@@ -91,39 +90,39 @@
   <h3>Station Tour</h3>
   <p>* required</p>
 
-  <label class="control-label" for="location">Location: *</label>
+  <label class="control-label" for="station-tour-location">Location: *</label>
   <div>
-    <select class="form-control" id="location">
+    <select class="form-control" name="station-tour-location">
       <option value="station-1">Station 1, 24655 Westheimer Parkway</option>
       <option value="station-2">Station 2, 26950 Cinco Ranch Blvd.</option>
       <option value="station-3">Station 3, 2700 Spring Green Blvd.</option>
     </select>
   </div>
 
-  <label class="control-label" for="group">Group/Affiliation: *</label>
+  <label class="control-label" for="group-affiliation">Group/Affiliation: *</label>
   <div>
-    <input type="text" class="form-control" id="group">
+    <input type="text" name="group-affiliation" class="form-control" required>
   </div>
 
-  <label class="control-label" for="purpose">Purpose: *</label>
+  <label class="control-label" for="station-tour-purpose">Purpose: *</label>
   <div>
-    <input type="text" class="form-control" id="purpose">
+    <input type="text" name="station-tour-purpose" class="form-control" required>
   </div>
 
-  <label class="control-label" for="age-group">Age Group: *</label>
+  <label class="control-label" for="station-tour-age-group">Age Group: *</label>
   <div>
-    <input type="text" class="form-control" id="age-group">
+    <input type="text" name="station-tour-age-group" class="form-control" required>
   </div>
 
 
   <label class="control-label" for="group-size">Group Size: *</label>
   <div>
-    <input type="text" class="form-control" id="group-size">
+    <input type="text" class="form-control" name="group-size" required>
   </div>
 
   <label class="control-label" for="comments">Comments:</label>
   <div>
-    <textarea class="form-control" id="comments"></textarea>
+    <textarea class="form-control" name="comments"></textarea>
   </div>
 
 </div>
@@ -139,3 +138,4 @@
   <script type="text/javascript" src="./scripts/main.js"></script>
 </body>
 </html>
+

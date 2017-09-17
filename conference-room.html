@@ -58,29 +58,28 @@
   </div>
 </nav>
 
-
+  
 
 
   <div class="container text-center">
-    <form class="public-events form-horizontal">
+    <form class="public-events form-horizontal" id="conference-room-form">
       <div class="form-well well col-md-12">
   <h3>Contact Information</h3>
   <p>* required</p>
 
-  <label class="control-label" for="name">Name: *</label>
+  <label class="control-label" for="contact-name">Name: *</label>
   <div>
-    <input type="text" class="form-control" id="name">
+    <input type="text" class="form-control" name="contact-name" required>
   </div>
 
-
-  <label class="control-label" for="email">Email: *</label>
+  <label class="control-label" for="contact-email">Email: *</label>
   <div>
-    <input type="text" class="form-control" id="email" placeholder="abcd@example.com">
+    <input type="text" class="form-control" name="contact-email" placeholder="abcd@example.com" required>
   </div>
 
-  <label class="control-label" for="phone">Phone: *</label>
+  <label class="control-label" for="contact-phone">Phone: *</label>
   <div>
-    <input type="text" class="form-control" id="phone" placeholder="000-000-0000">
+    <input type="text" class="form-control" name="contact-phone" placeholder="000-000-0000" required>
   </div>
 </div>
 
@@ -91,37 +90,42 @@
   <h3>Conference Room Reservation</h3>
   <p>* required</p>
 
-  <label class="control-label" for="date-4">Date: *</label>
+  <label class="control-label" for="conference-room-date">Date: *</label>
   <div>
-    <input type="text" class="form-control" id="date-4" placeholder="MM/DD/YYYY">
+    <input type="text" class="form-control" name="conference-room-date" placeholder="MM/DD/YYYY" required>
   </div>
 
-  <label class="control-label" for="start-time">Start Time (earliest is 10:30): *</label>
+  <label class="control-label" for="conference-room-start-time">Start Time (earliest is 10:30): *</label>
   <div>
-    <input type="text" class="form-control" id="start-time">
+    <input type="text" class="form-control" name="conference-room-start-time" required>
   </div>
 
-  <label class="control-label" for="end-time">End Time: *</label>
+  <label class="control-label" for="conference-room-end-time">End Time: *</label>
   <div>
-    <input type="text" class="form-control" id="end-time">
+    <input type="text" class="form-control" name="conference-room-end-time" required>
   </div>
 
-  <label class="control-label" for="location-4">Location: *</label>
+  <label class="control-label" for="conference-room-group-affiliation">Group/Affiliation: *</label>
   <div>
-    <select class="form-control" id="location-4">
+    <input type="text" class="form-control" name="conference-room-group-affiliation" required>
+  </div>
+
+  <label class="control-label" for="conference-room-location">Location: *</label>
+  <div>
+    <select class="form-control" name="conference-room-location">
       <option value="station-1">Station 1, 24655 Westheimer Parkway</option>
       <option value="station-2">Station 2, 26950 Cinco Ranch Blvd.</option>
       <option value="station-3">Station 3, 2700 Spring Green Blvd.</option>
     </select>
   </div>
 
-  <label class="control-label" for="comments-4">Comments:</label>
+  <label class="control-label" for="conference-room-comments">Comments:</label>
   <div>
-    <textarea class="form-control" rows="5" id="comments-4"></textarea>
+    <textarea class="form-control" rows="5" name="conference-room-comments"></textarea>
   </div>
 </div>
 
-      <button class="btn btn-success btn-lg" type="submit">Submit</button>
+      <input type="submit" value="Submit" class="btn btn-success btn-lg">
     </form>
   </div>
 
@@ -132,3 +136,4 @@
   <script type="text/javascript" src="./scripts/main.js"></script>
 </body>
 </html>
+
