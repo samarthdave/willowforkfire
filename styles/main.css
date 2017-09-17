@@ -315,6 +315,7 @@ td {
 }
 .public-events h1 {
   font-size: 20px;
+  text-decoration: none;
 }
 .public-events label {
   color: #fff
