@@ -324,7 +324,7 @@ td {
   color: #fff;
   text-decoration: underline;
 }
-.public-events .form-well img {
+.public-events .form-well img:not(.img-sm) {
   height: 250px;
   padding: 0;
   display: inline-block;
