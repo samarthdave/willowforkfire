@@ -368,6 +368,7 @@ td {
 .img-sm {
   margin: 0 auto;
   width: 40%;
+  border-radius: 10px;
 }
 
 /*add white color to anchors on contacts page*/
