@@ -8,6 +8,15 @@ body {
   border: 0;
 }
 
+/*all anchors*/
+#important-links a {
+  color: #fff;
+}
+#important-links a:hover,
+#important-links a:focus {
+  color: #ccc;
+}
+
 /*navbar fonts*/
 .navbar a {
   font-size: 1.2em;
@@ -322,7 +331,7 @@ td {
 }
 .public-events a {
   color: #fff;
-  
+
 }
 .public-events .form-well img:not(.img-sm) {
   height: 250px;
