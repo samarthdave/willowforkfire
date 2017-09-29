@@ -2,7 +2,7 @@
 # see https://github.com/samarthdave/express-static-gen for more
 URL=localhost:3000
 
-curl $URL/main.css > styles/main.css
+curl $URL/style.css > styles/style.css
 
 curl $URL > index.html
 curl $URL/history > history.html
