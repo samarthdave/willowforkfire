@@ -1,0 +1,410 @@
+body {
+  background: #888;
+}
+
+.navbar-default {
+  background: #081461;
+  border-radius: 0;
+  border: 0;
+}
+
+/*all anchors*/
+#important-links a {
+  color: #fff;
+}
+#important-links a:hover,
+#important-links a:focus {
+  color: #ccc;
+}
+
+/*navbar fonts*/
+.navbar a {
+  font-size: 1.2em;
+}
+
+/*center align*/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*links in navbar and hover*/
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+  color: #fff;
+  background: #e02d3e;
+}
+
+
+/*dropdown menu*/
+.dropdown-menu {
+  background: #081461;
+}
+.dropdown-menu li a {
+  color: #fff;
+}
+
+/*hover over li*/
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  color: #fff;
+  background: #e02d3e;
+}
+
+/*control the brand image*/
+.navbar-brand {
+  padding: 0px;
+  height: 110px;
+}
+.navbar-brand > img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
+}
+.navbar.navbar-default .nav >li >a {
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+.navbar.navbar-default .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+/*carousel*/
+#carousel1 {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  /*max-width: 400px;*/
+}
+.carousel .item {
+  height: 350px;
+}
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+/*custom well*/
+.blue.well {
+  background-color: #081461;
+  border: 0;
+  border-radius: 12px;
+}
+
+/*blue well font size*/
+.blue.well h2 {
+  margin: 0 0 10px 0;
+  color: #fff;
+  font-size: 20px;
+}
+
+/*editing all anchors*/
+a:hover {
+  text-decoration: none;
+}
+
+/**/
+/*zoom body out to fit index page*/
+/**/
+@media (min-width: 700px) {
+  #homepage {
+    zoom: 85%;
+  }
+}
+
+/*no click*/
+.no-click:hover,
+.no-click:focus {
+  cursor: not-allowed;
+}
+
+
+/*patch thumbnail*/
+.thumbnail {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+}
+.patch.thumbnail > img {
+  max-width: 150px;
+}
+.thumbnail > img {
+  max-width: 90%;
+}
+
+/*underline text*/
+.text-underline {
+  text-decoration: underline;
+}
+
+/*footer*/
+
+.footer {
+  height: 100px;
+  width: 100%;
+}
+
+/* custom floats*/
+.float {
+  margin: 5px;
+}
+
+.float.right {
+  float: right;
+}
+
+.float.left {
+  float: left;
+}
+
+
+/*listings on index page*/
+.listings .col-md-3 {
+  background-color: #e02d3e;
+  border-width: 5px;
+  border-color: #888;
+  border-style: solid;
+  border-radius: 20px;
+}
+.listings h4 {
+  color: #fff;
+  font-size: 1.3em;
+}
+
+/*make listings square*/
+.listings .col-md-3 {
+  height: 220px;
+}
+
+/*make images larger in thumbnails*/
+.listings .col-md-3 .thumbnail {
+  height: calc(100% - 100px);
+}
+
+
+hr.people {
+	border-top: 2px solid #fff;
+	width: 100%;
+}
+
+/*moving navbar over the image for desktop only*/
+@media (min-width: 760px) {
+  .nav.navbar-nav {
+    margin-right: 50px;
+  }
+}
+
+
+
+/**/
+/*locations*/
+/**/
+.locations a {
+  color: #fff
+}
+
+.station p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/**/
+/*service area*/
+/**/
+
+.service-area h1 {
+  color: #fff;
+}
+
+.service-area p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+
+.service-area ul {
+  list-style: none;
+}
+.service-area li {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+/*History Page*/
+/**/
+
+
+.history h2 {
+  color: #fff;
+}
+
+.history p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.paragraphImage {
+  float: right;
+  margin: 5px;
+}
+
+
+
+/**/
+/*contacts page*/
+/**/
+
+.contacts {
+  color: #fff;
+}
+.contacts p {
+  font-size: 1.2em;
+}
+
+/**/
+/*Directors page*/
+/**/
+.commissioners h1 {
+  color: #fff;
+}
+.commissioners .table td {
+  color: #fff;
+  border: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+table {
+  table-layout: fixed;
+}
+td {
+  width: 33%;
+}
+
+
+
+/**/
+/*public events*/
+/**/
+
+.form-well {
+  background: transparent;
+  border: 3px solid #fff;
+}
+.form-well {
+  color: #fff;
+}
+.public-events h1,
+.public-events h3,
+.public-events h5 {
+  color: #fff;
+  margin: 0 0 15px 0;
+}
+.public-events h1 {
+  font-size: 20px;
+  text-decoration: none;
+}
+.public-events label {
+  color: #fff
+}
+.public-events a {
+  color: #fff;
+
+}
+.public-events .form-well img:not(.img-sm) {
+  height: 250px;
+  padding: 0;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+
+@media (min-width: 992px) {
+  .col-md-6 {
+    border: 10px solid transparent;
+  }
+}
+
+
+/**/
+/*command page*/
+/**/
+
+.command h1,
+.command h3,
+.command p,
+.command li {
+  color: #fff;
+}
+
+.person p,
+.person li {
+  font-size: 1.2em;
+}
+
+/*small images on 4 images*/
+.img-sm {
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 10px;
+}
+
+/*add white color to anchors on contacts page*/
+
+.contacts a,
+.service-area a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+li a,
+li a:hover {
+  text-decoration: none;
+}
+
+/*anchors for modals hover*/
+.text-hover-anchor:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
