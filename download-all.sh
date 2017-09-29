@@ -11,7 +11,7 @@ curl $URL/command > command.html
 curl $URL/apparatus > apparatus.html
 curl $URL/public-event-signup > public-event-signup.html
 curl $URL/public-appearance > public-appearance.html
-curl $URL/community-training > community-training.html
+curl $URL/community-education > community-education.html
 curl $URL/conference-room > conference-room.html
 curl $URL/station-tour > station-tour.html
 curl $URL/contacts > contacts.html
