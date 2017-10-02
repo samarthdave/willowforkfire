@@ -392,6 +392,38 @@ li a:hover {
   cursor: pointer;
 }
 
+/*navbar toggle*/
+.navbar-default .navbar-toggle {
+  border-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background: none;
+}
+
+
+
+/**/
+/*optimizing mobile*/
+/**/
+
+@media only screen and (max-width: 768px) {
+  .navbar.navbar-default .nav >li >a {
+    padding: 10px;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #777;
+  }
+
+}
+
 
 
 
