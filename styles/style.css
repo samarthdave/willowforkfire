@@ -263,9 +263,13 @@ hr.people {
   color: #fff;
 }
 
-.history p {
+.history div {
   color: #fff;
   font-size: 1.2em;
+}
+
+.history > div.text-center > img {
+  max-width: 300px;
 }
 
 .paragraphImage {
